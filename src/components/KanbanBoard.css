@@ -1,0 +1,90 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.group-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.group-container h3 {
+  color: #333;
+}
+
+.ticket-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ticket-container p {
+  margin: 0;
+  padding: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ticket-container p {
+  margin: 0;
+  padding: 5px;
+}
+
+.ticket-container p#id {
+  color: grey;
+}
+
+.ticket-container p#title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ticket-container p#tag {
+  color: grey;
+}
+
+.ticket-container .icon {
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
